@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soloSoccer</title>
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+
+<body>
+    <header id="cabecera-fija">
+        
+        <h2><img src="assets/images/balon.png" class="balon" srcset="">Bienvenido a Top Fans: Valencia Club de Futbol <img src="assets/images/balon.png" class="balon" srcset=""></h2>
+        <br>
+        <section id="navegacion-menu">
+            <ul >
+                <li><a href="#estadisticas">Estadísticas</a></li>
+                <br>
+                <li><a href="#altas">Altas</a></li>
+            </ul>
+        </section>
+    </header>
+    <main id="estadisticas">
+        <table>
+            <thead>
+                <tr>
+                        <h3>PLANTILLA VALENCIA CF TEMPORADA 2025</h3>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="titulos">
+                    <td>Dorsal</td>
+                    <td>Nombre</td>
+                    <td>Posicion de juego</td>
+                    <td>Perfil</td>
+                    <td>Amarillas</td>
+                    <td>Rojas</td>
+                    <td>Goles</td>
+                    <td>Contra-goles</td>
+                    <td>Partidos jugados</td>
+                    <td>Sueldo(€Mill.)</td>
+                </tr>
+                <tr class="info">
+                    <td>25</td>
+                    <td>Giorgi Mamardashvili</td>
+                    <td>Portero</td>
+                    <td><img src="assets/images/portero_mamardashvili.png" class="img-jugador" srcset=""></td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>-2</td>
+                    <td>8</td>
+                    <td>63</td>
+                </tr>
+                <tr class="info">
+                    <td>8</td>
+                    <td>Javier Guerra</td>
+                    <td>Centro-campista</td>
+                    <td><img src="assets/images/centros_javiguerra.png" class="img-jugador" alt="" srcset=""></td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>9</td>
+                    <td>45</td>
+                </tr>
+                <tr class="info">
+                    <td>18</td>
+                    <td>Pepelu (Jose Luís) García Vayá</td>
+                    <td>Centro-campista</td>
+                    <td><img src="assets/images/centros-pepelu.png" class="img-jugador" alt="" srcset=""></td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>12</td>
+                    <td>46</td>
+                </tr>
+                <tr class="info">
+                    <td>12</td>
+                    <td>Hugo Duró</td>
+                    <td>Delantero</td>
+                    <td><img src="assets/images/delantero_hugoduro.png" class="img-jugador" alt="" srcset=""></td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>12</td>
+                    <td>78</td>
+                </tr>
+                <tr class="info">
+                    <td>22</td>
+                    <td>Nasher Rafamir</td>
+                    <td>Delantero</td>
+                    <td><img src="assets/images/delantero_rafamir.png" class="img-jugador" alt="" srcset=""></td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>7</td>
+                    <td>12</td>
+                </tr>
+                <tr class="info">
+                    <td>13</td>
+                    <td>Cambele Foulquier</td>
+                    <td>Defensa</td>
+                    <td><img src="assets/images/defensa_foulquier.png" class="img-jugador" alt="" srcset=""></td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>7</td>
+                    <td>56</td>
+                </tr>
+                <tr class="info">
+                    <td>21</td>
+                    <td>Jose Gayá</td>
+                    <td>Defensa</td>
+                    <td><img src="assets/images/defensa_gaya.png" class="img-jugador" alt="" srcset=""></td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>-1</td>
+                    <td>13</td>
+                    <td>36</td>
+                </tr>
+                <tr class="info">
+                    <td>00</td>
+                    <td>Ilian Toupuria</td>
+                    <td>Entrenador</td>
+                    <td><img src="assets/images/toupuria.webp" class="img-jugador" alt="" srcset=""></td>
+                    <td>0</td>
+                    <td>5</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>6</td>
+                    <td>112</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer id="altas">
+        <h2>¿Quieres unirte al club? Rellena nuestra solicitud</h2>
+        <form action="nueva-solicitud">
+            <label for="nombre">Indica tu nombre completo</label><br>
+            <input type="text" name="nombre" id="nombre" required pattern="[A-Za-z] [A-Za-z]">
+            <br><br>
+            <label for="email">Ingresa un email valido</label><br>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+            <label for="genero">Tu género</label>
+            <select name="" id="genero">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="indefinido">Prefierp no responder</option>
+            </select>
+            <br><br>
+            <label for="foto">Adjunta una foto perfil de tí</label><br>
+            <input type="file" name="foto" id="foto" required accept=".jpg .png">
+            <br><br>
+            <label for="peso">{60} Indica tu peso aproximado en kg {120}</label><br>
+            <input type="range" name="peso" id="peso" min="60" max="110">
+            <br><br>
+            <label for="altura">Marca tu altura en cm</label><br>
+            <input type="number" name="altura" id="altura" pattern="[0-9]">
+            <br><br>
+            <label for="dieta">Elige tu dieta seguida para la pre-prueba</label><br>
+            <select name="" id="dieta">
+                <option value="vegetariana">Vegetariana</option>
+                <option value="vegana">Vegana</option>
+                <option value="variada">Variada</option>
+                <option value="omnivora">Omnívora</option>
+                <option value="saludable">Saludable</option>
+                <option value="hipocalorica">Hipocalorica</option>
+            </select>
+            <br><br>
+            <label for="nacimiento">Indica tu fecha de nacimiento</label><br>
+            <input type="date" name="" id="nacimiento" required min="01/01/2010">
+            <br><br>
+            <label for="telefono">Indica tu número de teléfono(xxx xx xx xx)</label><br>
+            <input type="tel" name="" id="telefono" pattern="[0-9]{3} [0-9]{2} [0-9]{2} [0-9]{2}">
+            <br><br>
+            <label for="posicion">Indica posición de juego</label>
+           <select name="" id="posicion">
+            <option value="portero">Portero</option>
+            <option value="delantero">Delantero</option>
+            <option value="defensa">Defensa</option>
+            <option value="Centro">Centro-campista</option>
+           </select>
+           <br><br>
+           <input type="button" value="Enviar" id="enviar" onclick="alert('Solicitud enviada')">
+           <input type="reset" value="Borrar" id="borrar">
+        </form>
+    </footer>
+</body>
+</html>
