@@ -8,12 +8,11 @@ body{position:relative;display:flex; flex-direction: column; height:inherit;widt
 header{background: green;color:white;position:fixed;width:100%;
 font-family: '8-bits', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-align: center;z-index:1000;margin-bottom:0.5%;left:0;top:0.3%;}
-main{background: lightgreen  ;position:relative; top:150px;margin:2%;text-align:center;
-    font-family:'baloo','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif }
-footer{position:relative; margin-left:7%;margin-right:7%;margin-top:150px;;text-align:center;
-    background:rgb(168, 241, 168); opacity:0.9;
-    font-family:'baloo','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-
+main{position:relative; font-family:'baloo','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;}
+footer{background:green;color:white;;width:100%;
+    font-family: '8-bits', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;margin-top:30vh;left:0;bottom:0.3%;}
 
 /* este es la configuración del header cabecera fixed al viewport */
 .balon{width:50px;}
@@ -23,6 +22,8 @@ li:hover{transform:scale(1.5);}
 #navegacion-menu{position:absolute;right:10%;bottom: 2%;}
 
 /* esta es la edicion del apartado estadisticas */
+#estadisticas{background: lightgreen;
+     top:100px;margin:2%; position:inherit;}
 table{border:2px solid black;width:100%;}
 thead{ width:100%;border:1px solid black;font-weight: bolder;}
 tbody{ width:100;flex:auto;flex-wrap:nowrap;gap:0.5rem; }
@@ -34,6 +35,8 @@ td{border:1px solid black;  }
 
 
 /* la configuracion del formulario para nuevas solicitudes */
+#altas{ margin-left:7%;margin-right:7%;margin-top:0px;top:100px;
+    position:relative;background:rgb(168, 241, 168); opacity:0.9;}
 input{margin:5px;padding-left:10px; width:50%;cursor:pointer;border-radius:6px;}
 select{background:lightcyan;cursor:pointer;}
 input[required]{background:lightcyan;}
